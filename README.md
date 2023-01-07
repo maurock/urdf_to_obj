@@ -30,6 +30,7 @@ python urdf_to_obj.py --urdf_path 'urdf_files/ur5/tactip/ur5_with_standard_tacti
 As a result, 11 individual components and a single emrged mesh defined in world frame are extracted into `meshes_extracted/'.
 
 We can then import these filed in Blender and produce a pretty rendering:
+[](docs/images/robot_teapot.png)
 
 # Note
 This script only works for extracting `.obj` files. Other file types are not currently supported.
